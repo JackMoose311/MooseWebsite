@@ -52,30 +52,34 @@ document.addEventListener('DOMContentLoaded', function () {
     // Example detailed content — replace with your real write-ups
     if (id === '1') {
       content = `
-        <h2>Project 1 — Compact Task Manager</h2>
-        <p><strong>Overview:</strong> A minimal task manager that stores data offline and syncs when online. Focused on keyboard accessibility and fast interactions.</p>
+        <h2>Project 1 — Fact Checker Discord Bot</h2>
+        <p><strong>Overview:</strong> A Discord bot that fact-checks user claims in real time using OpenAI’s GPT models..</p>
         <h3>Problem</h3>
-        <p>Many task managers are heavy. We wanted something fast and keyboard-friendly for power users.</p>
-        <h3>Approach</h3>
-        <p>Built using React, IndexedDB for local persistence, and a service worker for caching assets and background sync.</p>
+        <p>When talking with friends, misinformation can arise. I wanted to create a bot that will fact-check information live.</p>
+        <h3>How I made it:</h3>
+        <p>Using OpenAI API libraries in Python, this Discord bot is able to fact-check claims in real-time using ChatGPT models.</p> 
         <h3>Highlights</h3>
         <ul>
-          <li>Offline-first: tasks available while offline</li>
-          <li>Keyboard shortcuts and a11y semantics</li>
-          <li>Export/import via JSON</li>
+          <li>Hosted 24/7 online via Discloud.</li>
+          <li>Quirky, nerdy, personality.</li>
+          <li>You can invite the bot to your discord server! Link in the Github README.md</li>
         </ul>
-        <p><a href="https://github.com/yourusername/project1" target="_blank" rel="noopener">Repository</a> · <a href="#" onclick="closeModal();return false;">Close</a></p>
+        <p><a href="https://github.com/JackMoose311/Fact-Checker-Discord-Bot" target="_blank" rel="noopener">Repository</a> · <a href="#" onclick="closeModal();return false;">Close</a></p>
       `;
     } else if (id === '2') {
       content = `
-        <h2>Project 2 — Data Viz Dashboard</h2>
-        <p><strong>Overview:</strong> Interactive dashboard with filtering, drill-down charts, and CSV export for business reporting.</p>
-        <h3>Approach</h3>
-        <p>D3 to build custom charts, Node backend for authenticated CSV exports, and Postgres for analytics.</p>
-        <h3>Impact</h3>
-        <p>Cut reporting time by 70% for internal stakeholders.</p>
-        <p><a href="https://github.com/yourusername/project2" target="_blank" rel="noopener">Repository</a></p>
-      `;
+        <h2>This Website!</h2>
+        <p><strong>Overview:</strong> A personal portfolio website designed to showcase my background, technical skills, and projects in more detail than a traditional résumé allows. The site is fully responsive and hosted on GitHub Pages.</p>
+        <h3>How I Built It</h3>
+        <p>
+        Developed using <strong>HTML, CSS, and JavaScript</strong>, with a simple multi-page layout. 
+        I implemented custom styling for a clean, professional look and added interactive features such as 
+        project detail modals. Version control and deployment were managed through <strong>GitHub</strong>.
+        </p>
+        <p>
+          <a href="https://github.com/JackMoose311/MooseWebsite" target="_blank" rel="noopener">View Repository</a>
+        </p>
+        `;
     } else if (id === '3') {
       content = `
         <h2>Project 3 — Portfolio Generator</h2>
