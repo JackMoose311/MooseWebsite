@@ -1,4 +1,3 @@
-# MooseWebsite
 # Personal Portfolio Website
 
 Hello everyone! I am Jack Mussoline! I am an undergrate student majoring computer engineering at The Pennsylvania State University!
