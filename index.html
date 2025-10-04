@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Home — Your Name</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Your Name</a>
+      <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="siteNav">☰</button>
+      <nav id="siteNav" class="site-nav" aria-label="Main navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-photo">
+        <!-- Replace src with your photo -->
+        <img src="https://via.placeholder.com/300x300?text=Your+Photo" alt="Portrait of Your Name" />
+      </div>
+      <div class="hero-summary">
+        <h1>Hello — I'm Your Name</h1>
+        <p class="lead">
+          I'm a [role, e.g. "frontend developer"] who likes building clean, accessible interfaces and
+          solving real user problems. I enjoy JavaScript, CSS, and turning ideas into production.
+        </p>
+
+        <p>
+          Quick highlights:
+        </p>
+        <ul>
+          <li>Experience with React, Node.js, and modern front-end tooling</li>
+          <li>Built apps used by X users (replace with your numbers)</li>
+          <li>Available for full-time or contract roles</li>
+        </ul>
+
+        <div class="cta-links">
+          <a class="btn" href="projects.html">See Projects</a>
+          <a class="btn btn-outline" href="contact.html">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="container more-info">
+      <h2>Selected Work</h2>
+      <p>Below are a few quick links to projects — click through on Projects for more detail.</p>
+      <div class="card-grid">
+        <article class="card">
+          <img src="https://via.placeholder.com/400x220?text=Project+1" alt="Project 1 screenshot" />
+          <h3>Project 1</h3>
+          <p>Short one-liner summarizing the project.</p>
+          <a class="link" href="projects.html#proj-1">Read more →</a>
+        </article>
+
+        <article class="card">
+          <img src="https://via.placeholder.com/400x220?text=Project+2" alt="Project 2 screenshot" />
+          <h3>Project 2</h3>
+          <p>Short one-liner summarizing the project.</p>
+          <a class="link" href="projects.html#proj-2">Read more →</a>
+        </article>
+
+        <article class="card">
+          <img src="https://via.placeholder.com/400x220?text=Project+3" alt="Project 3 screenshot" />
+          <h3>Project 3</h3>
+          <p>Short one-liner summarizing the project.</p>
+          <a class="link" href="projects.html#proj-3">Read more →</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Your Name — <a href="contact.html">Get in touch</a></small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

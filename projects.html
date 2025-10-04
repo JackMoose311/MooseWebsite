@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects — Your Name</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Your Name</a>
+      <button id="navToggleProjects" class="nav-toggle" aria-expanded="false" aria-controls="siteNavProjects">☰</button>
+      <nav id="siteNavProjects" class="site-nav" aria-label="Main navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="projects.html" class="nav-link current">Projects</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Projects</h1>
+    <p>Click a project title to open a detailed view.</p>
+
+    <section class="project-list">
+      <!-- Project 1 -->
+      <article class="project" id="proj-1">
+        <img class="project-thumb" src="https://via.placeholder.com/300x200?text=Proj+1" alt="Project 1 screenshot" />
+        <div class="project-body">
+          <h2 class="project-title" data-project="1" tabindex="0">Project 1 — Compact Task Manager</h2>
+          <p class="project-desc">A minimal task management app with offline-first sync and keyboard-friendly UI.</p>
+          <p class="project-meta">Stack: React, IndexedDB, Service Worker</p>
+        </div>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="project" id="proj-2">
+        <img class="project-thumb" src="https://via.placeholder.com/300x200?text=Proj+2" alt="Project 2 screenshot" />
+        <div class="project-body">
+          <h2 class="project-title" data-project="2" tabindex="0">Project 2 — Data Viz Dashboard</h2>
+          <p class="project-desc">Interactive charts and exportable reports for business metrics.</p>
+          <p class="project-meta">Stack: D3, Node.js, Postgres</p>
+        </div>
+      </article>
+
+      <!-- Project 3 -->
+      <article class="project" id="proj-3">
+        <img class="project-thumb" src="https://via.placeholder.com/300x200?text=Proj+3" alt="Project 3 screenshot" />
+        <div class="project-body">
+          <h2 class="project-title" data-project="3" tabindex="0">Project 3 — Portfolio Generator</h2>
+          <p class="project-desc">A static site generator for designers to quickly showcase work.</p>
+          <p class="project-meta">Stack: Eleventy, Netlify, CSS Grid</p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="yearProjects"></span> Your Name — <a href="index.html">Home</a></small>
+    </div>
+  </footer>
+
+  <!-- Modal for detailed project view -->
+  <div id="projectModal" class="modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-content" role="document">
+      <button class="modal-close" aria-label="Close details">✕</button>
+      <div id="modalInner"></div>
+    </div>
+    <div class="modal-backdrop"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
