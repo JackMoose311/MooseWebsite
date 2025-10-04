@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function () {
           <li>Quirky, nerdy, personality.</li>
           <li>You can invite the bot to your discord server! Link in the Github README.md</li>
         </ul>
-        <p><a href="https://github.com/JackMoose311/Fact-Checker-Discord-Bot" target="_blank" rel="noopener">Repository</a> · <a href="#" onclick="closeModal();return false;">Close</a></p>
+        <p><a href="https://github.com/JackMoose311/Fact-Checker-Discord-Bot" target="_blank" rel="noopener">Repository</a></p>
       `;
     } else if (id === '2') {
       content = `
