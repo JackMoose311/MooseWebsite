@@ -196,3 +196,28 @@ body{
   .site-nav{display:none}
   .site-nav.open{display:flex; flex-direction:column; gap:0.25rem; margin-left:1rem}
 }
+
+
+/* Default (light mode) */
+body {
+  background-color: white;
+  color: black;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Button styling */
+#theme-toggle {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Dark mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
