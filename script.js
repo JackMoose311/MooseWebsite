@@ -112,17 +112,4 @@ if (localStorage.getItem('theme') === 'dark') {
   toggleBtn.textContent = '☀️';
 }
 
-// Toggle on click
-toggleBtn.addEventListener('click', () => {
-  document.body.classList.toggle('dark-mode');
-  
-  if (document.body.classList.contains('dark-mode')) {
-    localStorage.setItem('theme', 'dark');
-    toggleBtn.textContent = '☀️'; // sun icon
-  } else {
-    localStorage.setItem('theme', 'light');
-    toggleBtn.textContent = '🌙'; // moon icon
-  }
-});
-
 });
