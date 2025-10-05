@@ -82,11 +82,8 @@ document.addEventListener('DOMContentLoaded', function () {
         `;
     } else if (id === '3') {
       content = `
-        <h2>Project 3 — Portfolio Generator</h2>
-        <p><strong>Overview:</strong> A static site generator tailored for designers to easily add projects, with image optimization and simple templates.</p>
-        <h3>Stack</h3>
-        <p>Eleventy, Netlify, ImageMagick, CSS Grid templates.</p>
-        <p><a href="https://github.com/yourusername/project3" target="_blank" rel="noopener">Repository</a></p>
+        <h2>Project 3 — (WORK IN PROGRESS) Chameleon Game App </h2>
+        <p><strong>Overview:</strong> An Android App based on the game Chameleon.</p>
       `;
     } else {
       content = `<h2>Project</h2><p>More details coming soon.</p>`;
